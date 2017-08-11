@@ -1,10 +1,14 @@
 {
   "name": "react-keygen",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "An npm Package that creates unique keys for react lists",
   "main": "index.js",
   "scripts": {
     "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jrotolo/react-keygen.git"
   },
   "keywords": [
     "react",
