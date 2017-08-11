@@ -16,7 +16,7 @@ A small library providing a utility method to list out React components and gene
 
   const MovieList = ({movies}) => (
     <ul className="MovieList">
-      {reactKeyMap(dataSet, (data) => <ListItem item={data} />)}
+      {reactKeyMap(movies, (movie) => <ListItem item={movie} />)}
     </ul>
   )
   ```
